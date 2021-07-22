@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head'
 
-export default function Home({ title = "Boilerplate Next.js" }) {
+export default function Home({ title = 'Boilerplate Next.js' }) {
   return (
     <div>
       <Head>
@@ -13,5 +13,5 @@ export default function Home({ title = "Boilerplate Next.js" }) {
         <h1>Hello</h1>
       </main>
     </div>
-  );
+  )
 }
